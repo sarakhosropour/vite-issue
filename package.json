@@ -1,0 +1,21 @@
+{
+  "name": "vite-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "",
+    "build": "vite build --outDir ../dist/server --emptyOutDir",
+    "start": "ts-node --esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.4.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}
